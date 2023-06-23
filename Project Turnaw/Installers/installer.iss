@@ -2,12 +2,12 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Turnaw"
-#define MyAppVersion "2.4.0"
+#define MyAppVersion "2.5.0"
 #define MyAppPublisher "TechHorizon & DuoNewb"
 #define MyAppExeName "Project Turnaw.exe"
-#define ProjectFolder "C:\Users\Luna\Source\Repos\PT\Project Turnaw\"
-#define ReleaseFolder "C:\Users\Luna\Source\Repos\PT\Project Turnaw\bin\Release\"
-#define DebugFolder "C:\Users\Luna\Source\Repos\PT\Project Turnaw\bin\Debug\"
+#define ProjectFolder "C:\Projetos\Turnaw\Turnaw\Project Turnaw\"
+#define ReleaseFolder "C:\Projetos\Turnaw\Turnaw\Project Turnaw\bin\Release\"
+#define DebugFolder "C:\Projetos\Turnaw\Turnaw\Project Turnaw\bin\Debug\"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
