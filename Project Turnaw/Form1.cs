@@ -1,7 +1,6 @@
 ﻿using Project_Turnaw.Engine.GerenciarHTMLForm;
 using Project_Turnaw.Engine.MainForm;
 using Project_Turnaw.Engine.Tools;
-using Project_Turnaw.Engine.Update;
 using Project_Turnaw.Windows;
 using System;
 using System.Drawing;
@@ -198,7 +197,7 @@ namespace Project_Turnaw
             }
         }
         public void updater() {
-            EngineUpdate.verifyUpdate(softwareVersion);
+
         }
         #endregion
 

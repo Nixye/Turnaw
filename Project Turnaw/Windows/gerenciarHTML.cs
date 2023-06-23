@@ -1,5 +1,4 @@
-﻿using Project_Turnaw.Engine.Activation;
-using Project_Turnaw.Engine.GerenciarHTMLForm;
+﻿using Project_Turnaw.Engine.GerenciarHTMLForm;
 using Project_Turnaw.Engine.Tools;
 using System;
 using System.Windows.Forms;
@@ -12,16 +11,7 @@ namespace Project_Turnaw.Windows
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (!EngineActivation.validaGenericPremium()) {
-                try {
-                    if (engineGHTMLF.getHTMLs().htmls.Count == 10) {
-                        MessageBox.Show("Você não é um assinante, e só poderá cadastrar 10 Templates!\n Acesse o botão [Seja Premium] na tela principal para assinar, ou ativar o aplicativo.", "Advertência (ಥ﹏ಥ)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        return;
-                    }
-                } catch { }
-            }
+        private void button1_Click(object sender, EventArgs e) {
             enablers(commands.novo);
             templateID.Text = "-1";
         }

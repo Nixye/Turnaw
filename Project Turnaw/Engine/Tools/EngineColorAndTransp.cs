@@ -1,5 +1,4 @@
-﻿using Project_Turnaw.Engine.Activation;
-using Project_Turnaw.Engine.GerenciaAparenciaForm;
+﻿using Project_Turnaw.Engine.GerenciaAparenciaForm;
 using Project_Turnaw.Engine.GerenciaCorForm;
 using Project_Turnaw.Engine.GerenciaTransparenciaForm;
 using System;
@@ -80,22 +79,12 @@ namespace Project_Turnaw.Engine.Tools
         }
 
         public static bool defineCT_PremiumSimple(Form f) {
-            bool isPremium = EngineActivation.validaGenericPremium();
-            if (isPremium) {
-                defineColorAndTransparency(f);
-                return true;
-            } else {
-                return false;
-            }
+            defineColorAndTransparency(f);
+            return true;
         }
         public static bool defineCT_PremiumAdvanced(Form f) {
-            bool isPremium = EngineActivation.validaPremium();
-            if (isPremium) {
-                defineColorAndTransparency(f);
-                return true;
-            } else {
-                return false;
-            }
+            defineColorAndTransparency(f);
+            return true;
         }
     }
 }

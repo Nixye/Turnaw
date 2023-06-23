@@ -1,5 +1,4 @@
-﻿using Project_Turnaw.Engine.Activation;
-using Project_Turnaw.Engine.GerenciarTAGsForm;
+﻿using Project_Turnaw.Engine.GerenciarTAGsForm;
 using Project_Turnaw.Engine.Tools;
 using System;
 using System.Windows.Forms;
@@ -18,14 +17,6 @@ namespace Project_Turnaw.Windows
             try { int.Parse(textSplited[0]); } catch {
                 MessageBox.Show("Selecione algum HTML.", "Advertência (ಥ﹏ಥ)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
-            }
-            if (!EngineActivation.validaGenericPremium()) {
-                try {
-                    if (getCountTAGsFromTemplate() == 5) {
-                        MessageBox.Show("Você não é um assinante, e só poderá cadastrar 5 TAGs para cada template!\n Acesse o botão [Seja Premium] na tela principal para assinar, ou ativar o aplicativo.", "Advertência (ಥ﹏ಥ)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        return;
-                    }
-                } catch { }
             }
             enablers(enablerType.novo);
         }

@@ -38,9 +38,9 @@
             // 
             this.label3.Location = new System.Drawing.Point(12, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(432, 22);
+            this.label3.Size = new System.Drawing.Size(253, 22);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Turnaw foi descontinuado! Está é uma versão Freeware!";
+            this.label3.Text = "Turnaw agora é uma Freeware!";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
@@ -51,7 +51,7 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(456, 40);
+            this.ClientSize = new System.Drawing.Size(277, 40);
             this.Controls.Add(this.label3);
             this.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -61,7 +61,7 @@
             this.MinimizeBox = false;
             this.Name = "AssinaturaEDesbloqueio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Desbloqueio Premium";
+            this.Text = "Freeware Version";
             this.Load += new System.EventHandler(this.AssinaturaEDesbloqueio_Load);
             this.ResumeLayout(false);
 

@@ -126,7 +126,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Engine\Activation\EngineActivation.cs" />
     <Compile Include="Engine\GerenciaAparenciaForm\EngineGerenciaAparencia.cs" />
     <Compile Include="Engine\GerenciaCorForm\EngineGerenciaCor.cs" />
     <Compile Include="Engine\GerenciarHTMLForm\engineGHTMLF.cs" />
@@ -138,7 +137,6 @@
     <Compile Include="Engine\Tools\EngineColorAndTransp.cs" />
     <Compile Include="Engine\Tools\saveEngine.cs" />
     <Compile Include="Engine\Tools\SGDBHelper.cs" />
-    <Compile Include="Engine\Update\EngineUpdate.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
